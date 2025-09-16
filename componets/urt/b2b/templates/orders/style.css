@@ -1,0 +1,45 @@
+.table-responsive {
+    /*overflow-x: unset !important;*/
+}
+.modal#detailModal .modal-content {
+    background-color: #00172a !important;
+}
+.modal#detailModal .modal-body ul.info {
+    margin-bottom: 30px;
+}
+.modal#detailModal .modal-body ul.info li.list-group-item {
+    font-size: 13px;
+}
+
+.modal#detailModal .modal-body .scroll-table {
+    height: 200px;
+    overflow-y: auto;
+}
+.modal#detailModal .modal-body thead th {
+    font-weight: 500;
+}
+
+table#B2BOrder tr {
+    cursor: pointer;
+}
+.filter-block .status-btn-block {
+    margin-left: 30px;
+}
+
+/* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
+/* Адаптив */
+/* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
+@media (max-width: 768px)
+{
+    .filter-block .d-flex.filter-line-2,
+    .filter-block .d-flex.btn-block{
+        align-items: stretch;
+        flex-direction: column;
+    }
+    .filter-block .btn-reset-filter {
+        margin: 10px 0 !important;
+    }
+    .filter-block .status-btn-block {
+        margin: 10px auto !important;
+    }
+}

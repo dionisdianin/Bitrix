@@ -1,0 +1,33 @@
+form[name = filterFormPrices] .btn-submit {
+    padding: 14px;
+}
+form[name = filterFormPrices] #resetFilter {
+    padding-top: 14px;
+    margin: 0 15px;
+}
+table#B2BPrices tr th {
+    font-weight: 500;
+    white-space: normal;
+}
+/* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
+/* Адаптив */
+/* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
+@media (max-width: 1440px)
+{
+    form[name = filterFormPrices] .adaptive-text {
+        display: none;
+    }
+}
+@media (max-width: 1024px)
+{
+    table#B2BPrices tr td.name-product {
+        white-space: normal;
+        line-height: 18px;
+    }
+}
+@media (max-width: 992px)
+{
+    form[name = filterFormPrices] .adaptive-text {
+        display: inline;
+    }
+}

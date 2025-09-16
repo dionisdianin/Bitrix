@@ -1,0 +1,8 @@
+table#B2BPayments tr th {
+    font-weight: 500;
+}
+
+table#B2BPayments tr td {
+    /*min-width: 90px;*/
+    white-space: normal;
+}

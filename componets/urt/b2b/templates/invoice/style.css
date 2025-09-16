@@ -1,0 +1,26 @@
+
+.modal#detailModal .modal-content {
+    background-color: #00172a !important;
+}
+.modal#detailModal .modal-body ul.info {
+    margin-bottom: 30px;
+}
+.modal#detailModal .modal-body ul.info li.list-group-item {
+    font-size: 13px;
+}
+
+.modal#detailModal .modal-body .scroll-table {
+    height: 200px;
+    overflow-y: auto;
+}
+.modal#detailModal .modal-body thead th {
+    font-weight: 500;
+}
+
+table#B2BInvoice tr {
+    cursor: pointer;
+}
+
+table#B2BInvoice tr a.link-file-invoice {
+
+}
